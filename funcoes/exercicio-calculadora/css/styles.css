@@ -1,0 +1,75 @@
+:root {
+  --primary-color: rgb(13, 106, 134);
+}
+
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background: var(--primary-color);
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.container {
+  max-width: 640px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: -5px 13px 72px 5px rgba(0, 0, 0, 0.75);
+}
+
+input,
+label {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+input {
+  font-size: 24px;
+  height: 50px;
+  padding: 0 20px;
+}
+
+input:focus {
+  outline: 1px solid var(--primary-color);
+}
+
+.primary-button {
+  border: none;
+  background: var(--primary-color);
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.calculadora {
+  width: 400px;
+}
+
+.display {
+  font-size: 2em;
+  width: 100%;
+  text-align: right;
+}
+
+.btn {
+  width: 100%;
+  height: 50px;
+  font-size: 1em;
+  border: none;
+  background: #dfdfdf;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #bbbaba;
+}
