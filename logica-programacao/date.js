@@ -6,4 +6,5 @@ console.log(data.toString());
 console.log(dataZero.toString());
 
 console.log("Dia:", data.getDate());
+
 console.log(data.getMilliseconds());
